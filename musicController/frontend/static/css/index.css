@@ -1,0 +1,34 @@
+/* Used to style templates/frontend/index.html */
+/* Expand the divs  */
+
+/* Expand the body div */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* Chaange the text color */
+    /* color: white;  */
+}
+
+/* Style for main div, which wraps the app div */
+#main {
+    /* main div is fixed, no scrolling.*/
+    position: fixed;
+
+    /* Fill the entire screen */
+    width: 100%;
+    height: 100%;
+
+    /* put main div at top left hand corner of screen */
+    left: 0;
+    top: 0;
+}
+
+/* Style for app div, app div is where React code is rendered */
+#app {
+    width: 100%;
+    height: 100%;
+
+    /* React components to be used only work in this grid */
+    display: flex;
+}
